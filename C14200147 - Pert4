@@ -1,0 +1,27 @@
+chmod ugo=rwx soal.txt
+ls -li
+   8127252 -rwxrwxrwx  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+chmod o=rx soal.txt
+ls -l
+   -rwxrwxr-x  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+chmod o+w soal.txt
+chmod o-wx soal.txt
+ls -l
+   -rwxrwxr--  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+chmod g=rx soal.txt
+ls -l
+   -rwxr-xr--  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+chmod ug=r soal.txt
+ls -l
+   -r--r--r--  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+chmod u=rwx,g=rw,o=r soal.txt
+ls -l
+   -rwxrw-r--  1 mobdev mobdev    0 Sep 15 14:49 soal.txt
+
+
+//Coba copy smp isinya hardcopy
+ln jevBabi.txt clone.txt
+
+//Coba copy smp isinya softcopy
+ln -s jevBabi.txt clonesoft.txt
+

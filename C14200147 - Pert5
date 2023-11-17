@@ -1,0 +1,17 @@
+mobdev@mobdev-Veriton-ES2730G:~$ cd SO-A
+mobdev@mobdev-Veriton-ES2730G:~/SO-A$ cd pert3
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3$ cd Auuuustralia
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3/Auuuustralia$ cd Ngawi
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3/Auuuustralia/Ngawi$ ls --format=single-column | grep -i O
+Ooo0000ooO.html
+OOOo00Ooo000.py
+oooOOOOooooO.txt
+
+
+mobdev@mobdev-Veriton-ES2730G:~/SO-A$ cd pert3
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3$ cd Auuuustralia
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3/Auuuustralia$ cd Maelburn
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3/Auuuustralia/Maelburn$ cd Jembret
+mobdev@mobdev-Veriton-ES2730G:~/SO-A/pert3/Auuuustralia/Maelburn/Jembrett$ ls --format=single-column | grep -iE "+i.{4,5}+a.+t$"
+kkkKKrrisnAAa.txt
+kKkrRriISsNNa.txt
